@@ -87,30 +87,30 @@ const questions = [
   
   },
   {
-    question: 'Given the session PageB> PageA> PageD> PageC> Exit, which Page got the exit?',
+    question: 'Which of the following could be measure by defining a goal in Google Analytics?',
     answers: [
-      { text: 'PageA', correct: false },
-      { text: 'PageB', correct: false },
-      { text: 'PageC', correct: true },
-      { text: 'PageD', correct: false }
+      { text: 'The % of visits that contain only one page view', correct: false },
+      { text: 'The % of visits during which visitors spent at least two minutes on the site', correct: false },
+      { text: 'Conversion Rate', correct: false},
+      { text: 'All of these could be measured by defining a goal in google Analytics', correct: True }
     ]
   },
   {
-    question: 'How do we define an Active user in Real Time reports?',
+    question: 'Which of the following are examples of goals in Google Analytics(Select all that apply)?',
     answers: [
-      { text: 'User who has not triggered any event or page view in last 30 minutes', correct: false },
-      { text: 'User who triggerd an event or page view in last 30 minutes ', correct: true },
-      { text: 'User who has triggerd an event or page view in last 5 minutes', correct: false },
-      { text: 'User who have website open on their device', correct: false }
+      { text: 'Making a purchase', correct: true },
+      { text: 'Signing up for a newsletter ', correct: true },
+      { text: 'completing a successful Google search ', correct: false },
+      { text: 'Submitting a contact information form', correct: true }
     ]
   },
   {
-    question: 'What format is used to import data in GA?',
+    question: 'Setting up goals allows yout to see____.',
     answers: [
-      { text: 'SQL', correct: false },
-      { text: 'Excel', correct: false },
-      { text: 'CSV', correct: true },
-      { text: 'TAB', correct: false }
+      { text: 'Bounce Rate', correct: false },
+      { text: 'Conversions Rate', correct: true },
+      { text: 'a list of transactions ', correct: false },
+      { text: 'Ecommerce revenue', correct: false }
     ]
   },
   {
